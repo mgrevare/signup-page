@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #298EEA;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.logo {
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.sign-up-form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px 30px 40px;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.sign-up-form h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #7F8283;
+}
+
+fieldset {
+  border: none;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.label {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.input {
+padding: 15px;
+height: 55px;
+width: 320px;
+font-size: 18px;
+border-width: 2px;
+border-radius: 5px;
+
+}
+
+.submit {
+  display: block;
+  width: 320px;
+  height: 55px;
+  background-color: #68C373;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: #34A853;
+}
+
+.forgot-pw-link {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}
+
+ .has-account p {
+   text-align: center;
+   color: white;
+   margin-top: 5px;
+   font-size: 14px;
+ }
+
+ .has-account a {
+   color: white;
+ }
